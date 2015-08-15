@@ -18,6 +18,7 @@ public abstract class Block extends Thing {
         this.xLoc = xLoc;
         this.yLoc = yLoc;
         //File array goes here @todo
+        //0 = not set, 1 = air, 2 = dirt
         
     }
 

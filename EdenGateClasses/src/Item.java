@@ -51,8 +51,4 @@ public class Item extends Thing {
     public void setStackMax(int stackMax) {
         this.stackMax = stackMax;
     }
-
-
-//    public Block toBlock { @todo
-
 }

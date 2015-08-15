@@ -27,9 +27,9 @@ public abstract class Thing {
     
     public void hit(byte damage) {
         health = (health - (int)(damage * dur));
-        if (health <= 0) this.delete();
+        if (health <= 0) {
+            //generate an event to delete the thing
+        }
     }
-    
-    public abstract void delete();
-    
+
 }
